@@ -105,6 +105,7 @@ formEnviar.on('submit', function(e) {
         function(mensaje) {
             txtMensaje.val('').focus();
             renderizarMensajes(mensaje, true);
+            scrollBottom();
         });
 
 
